@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "fastapi-storages"
+version = "0.1.0"
+description = "Storage backends for fastapi"
+authors = ["Tobi-De <tobidegnon@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aioaws = {version = "^0.13", optional = true}
+tortoise-orm = {version = "^0.19.0", optional = true}
+django-storages = "^1.12.3"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.950"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+pytest = "^7.1.2"
+
+[tool.poetry.extras]
+aws = ["aioaws"]
+tortoise = ["tortoise-orm"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
