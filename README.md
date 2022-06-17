@@ -1,8 +1,8 @@
 # Fastapi Storages
 
-Media files management for fastapi.
-
----
+Collection of backend storages and orm extensions to simplify file management in fastapi projects. This project
+is inspired by the [django-storages](https://github.com/jschneier/django-storages) packages. If you have  suggestion for a storage backend that is not 
+yet supported, please [open an issue](https://github.com/Tobi-De/fastapi-storages/issues/new) and will discuss it.
 
 [![PyPI](https://img.shields.io/pypi/v/fastapi-storages.svg)][pypi_]
 [![Status](https://img.shields.io/pypi/status/fastapi-storages.svg)][status]
@@ -28,11 +28,19 @@ Media files management for fastapi.
 
 ## Features
 
-- TODO
+### Media storage backend
 
-## Requirements
+- [ ] Local
+- [ ] Amazon ses
+- [ ] Google cloud
+- [ ] Deta
 
-- TODO
+### Database extensions
+
+- [ ] Tortoise ORM
+- [ ] RedisOM
+- [ ] Beanie
+- [ ] SQLModel
 
 ## Installation
 
@@ -42,25 +50,11 @@ You can install _Fastapi Storages_ via [pip] from [PyPI]:
 $ pip install fastapi-storages
 ```
 
-## Usage
+## Quickstart
 
 ```python
 
 ```
-
-## TODO
-
-## Media storage backend
-
-- [ ] Local
-- [ ] AWS
-
-## Database extensions
-
-- [ ] Tortoise ORM
-- [ ] RedisOM
-- [ ] Beanie
-- [ ] SQLModel
 
 ## Contributing
 

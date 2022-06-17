@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28f09c9b-d46d-403e-8a0e-fe31e0925b1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/docs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi_storages/filesystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi_storages/protocols.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pre-commit-config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_storages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_storages/aws.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_storages/ext/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_storages/ext/tortoise.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_storages/local.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_storages/protocols.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_aws.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/codeofconduct.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/codeofconduct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/contributing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contributing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/license.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/license.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/usage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/usage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_filesystem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +51,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tobi/Builds/Tobi-De/fastapi-storages/.github/workflows",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MTConfigurable",
+    "settings.editor.selected.configurable": "settings.saveactions",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/another/fastapi-storages" />
@@ -68,7 +77,13 @@
       <option name="presentableId" value="Default" />
       <updated>1652125275293</updated>
       <workItem from="1652125280008" duration="1845000" />
-      <workItem from="1654017718565" duration="735000" />
+      <workItem from="1654017718565" duration="1051000" />
+      <workItem from="1654018819110" duration="7000" />
+      <workItem from="1654097611514" duration="621000" />
+      <workItem from="1654528362697" duration="17000" />
+      <workItem from="1654586166935" duration="306000" />
+      <workItem from="1654876003352" duration="997000" />
+      <workItem from="1655298259272" duration="4457000" />
     </task>
     <servers />
   </component>
